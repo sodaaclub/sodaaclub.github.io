@@ -1,0 +1,132 @@
+body {
+	background: linear-gradient(#F9DED7, #F5CDDE, #E2BEF1);
+	background-size: 100% 100%;
+	animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 60%;
+	}
+50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.bokAaQ {
+    width: 100%;
+    display: flex;
+    flex-direction: row;/*column*/
+    -webkit-box-pack: justify;
+    justify-content: space-between; /*space-between*/
+    -webkit-box-align: left;
+    align-items: left;
+}
+
+#post {
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 600px;
+    padding: -20px;
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+}
+
+
+
+.hWCbQU {
+    font-size: 24px;
+    line-height: 35px;
+    padding-top: 1em;
+}
+<style>
+* {
+    box-sizing: border-box;
+}
+<style>
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+/*Tooltip*/
+section#tooltip p {
+  margin: 20px 0;
+}
+
+section#tooltip > div > div > p:nth-child(odd)::first-letter {
+  font-weight: normal;
+  float: left;
+  font-size: 4em;
+  line-height: .75;
+  letter-spacing: .15em;
+  margin-top: .2em;
+}
+
+.wrapper {
+  max-width: 800px;
+}
+
+/*Tooltip text*/
+.tooltip {
+  position: relative;
+  color: #000000;
+}
+
+.tooltip .tooltip-text {
+  font-family: "lusitana";
+  font-size: 0.8em;
+  line-height: 1.4em;
+  visibility: hidden;
+  max-width: 800px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 0%;
+  margin-left: -200px;
+  opacity: 0;
+  transition: .3s;
+  transform: translate3d(0px, 20px, 0px);
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+.foot { display: inline-block; line-height: 70px; vertical-align: top; }
+
+.img { display: inline-block;  }
+
+body{
+  margin:400;
+  width:100%;
+}
+svg{
+  width:100%;
+}
